@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "The British Sunflowers Bouquet",
+      "description": "Brighten their day with a vibrant, joyful bouquet.",
+      "price": 42,
+      "category": "Flowers",
+      "color": "Yellow",
+      "occasions": [
+        "birthday",
+        "thank you",
+        "cheer up"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/our-florist-s-pick-2507-uk/0537169e-6e0f-4c1a-a3eb-e6b19e28076a.jpeg",
+        "https://media.bloomandwild.com/v1/1080x1080/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/our-florist-s-pick-2507-uk/0537169e-6e0f-4c1a-a3eb-e6b19e28076a.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/our-florist-s-pick-2507-uk/fe44df8c-0218-499c-8867-5bb2b171dbb4.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/our-florist-s-pick-2507-uk/55e2e7e2-49e5-424c-b9bc-669e268988db.jpeg"
+      ],
+      "features": [
+        "16 stems including sunflowers, agapanthus and solidago",
+        "Hand-tied and delivered to the doorstep",
+        "Arrives in bud, blooms over 48 hours",
+        "Flower food and florists' arranging tips included"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Romantic Rose Trio",
+      "description": "A classic expression of love with stunning roses.",
+      "price": 55,
+      "category": "Flowers",
+      "color": "Red",
+      "occasions": [
+        "romantic",
+        "anniversary",
+        "valentine"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/our-florist-s-pick-2507-uk/0537169e-6e0f-4c1a-a3eb-e6b19e28076a.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/our-florist-s-pick-2507-uk/31358f3f-e53f-4452-bd15-ef7be390482f.jpeg"
+      ],
+      "features": [
+        "12 premium red roses",
+        "Comes with a luxury gift box",
+        "Includes handwritten note option"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "The Strawberries & Cream Afternoon Tea",
+      "description": "An indulgent spread of strawberry drizzle loaves, brownies and scones, plus tea to wash it all down.",
+      "price": 40,
+      "category": "Gifts",
+      "color": "Pink",
+      "occasions": [
+        "birthday",
+        "thank you",
+        "romantic"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/the-bloom-wild-afternoon-tea-v2/4ea4976d-0d78-4bbd-bcad-d9c54ae69ff7.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-bloom-wild-afternoon-tea-v2/f58aeb33-87f9-4bc6-8786-e67a04501825.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-bloom-wild-afternoon-tea-v2/636b4191-f540-40e7-96c6-7d32507f604c.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-bloom-wild-afternoon-tea-v2/89b7c5ae-eaf0-4ef3-9c64-98c867b999aa.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-phoebe-ht/79695909-908a-427a-ab07-a00b7d58548f.jpg"
+      ],
+      "features": [
+        "2 indulgent strawberry brownies",
+        "2 mini strawberry drizzle cakes",
+        "4 buttery scones",
+        "2 mini jars of luxury clotted cream",
+        "1 pot of strawberry jam",
+        "2 English breakfast teabags",
+        "Best eaten within 2-3 days of arrival",
+        "Arrives in a recyclable hand-wrapped Bloom & Wild gift box"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "The Phoebe Bouquet",
+      "description": "Elegant mixed bouquet with seasonal blooms.",
+      "price": 48,
+      "category": "Flowers",
+      "color": "Mixed",
+      "occasions": [
+        "anniversary",
+        "romantic",
+        "thank you"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/the-phoebe-ht/b67935e0-631e-4c53-923f-d9803ef1ef45.jpg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-phoebe-ht/79695909-908a-427a-ab07-a00b7d58548f.jpg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-phoebe-ht/68d2bce1-57b4-4755-aa05-ee88559b8d17.jpg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-phoebe-ht/62e9641a-405e-4248-8da2-5f345fb40f64.jpeg",
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/the-phoebe-ht/2dae49aa-64af-4839-90c8-4f6c600d454d.jpg"
+      ],
+      "features": [
+        "Elegant seasonal blooms",
+        "Hand-tied and delivered to doorstep",
+        "Arrives in bud, blooms over days",
+        "Includes flower food and care tips"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Indoor Tropical Plant",
+      "description": "Brighten your space with a lush green tropical plant.",
+      "price": 35,
+      "category": "Plants",
+      "color": "Green",
+      "occasions": [
+        "business",
+        "thank you"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/our-florist-s-pick-2507-uk/fe44df8c-0218-499c-8867-5bb2b171dbb4.jpeg"
+      ],
+      "features": [
+        "Easy-care tropical plant",
+        "Perfect for indoors",
+        "Adds fresh green vibe"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Business Desk Plant",
+      "description": "A small desk plant to brighten your workspace.",
+      "price": 30,
+      "category": "Business",
+      "color": "Green",
+      "occasions": [
+        "business",
+        "thank you"
+      ],
+      "images": [
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/addon-carousel/our-florist-s-pick-2507-uk/55e2e7e2-49e5-424c-b9bc-669e268988db.jpeg"
+      ],
+      "features": [
+        "Compact plant for desks",
+        "Easy maintenance",
+        "Great gift for colleagues"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "6f89",
+      "username": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "08d6",
+      "username": "a",
+      "password": "a"
+    },
+    {
+      "id": "1c39",
+      "username": "e",
+      "password": "e"
+    },
+    {
+      "id": "e893",
+      "username": "aaa",
+      "password": "aaa"
+    },
+    {
+      "id": "369e",
+      "username": "aaaaaaaaaaaaaaaaaaass",
+      "password": "a"
+    }
+  ],
+  "wishlist": [],
+  "cart": []
+}
