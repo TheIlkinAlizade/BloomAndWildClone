@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import logo from "../images/logo.png";
 
@@ -7,9 +7,13 @@ function Navbar() {
   const location = useLocation();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  // Keep track of last scroll position
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
-    const user = JSON.parse(localStorage.getItem("user")); // Parse the string to an object
+    const user = JSON.parse(localStorage.getItem("user"));
     if (user && user.username) {
       setUsername(user.username);
       setIsLoggedIn(true);
@@ -17,6 +21,28 @@ function Navbar() {
       setIsLoggedIn(false);
     }
   }, [location]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY < 50) {
+        // Always show navbar near top
+        setShowNavbar(true);
+      } else if (currentScrollY > lastScrollY.current) {
+        // Scrolling down - hide navbar
+        setShowNavbar(false);
+      } else {
+        // Scrolling up - show navbar
+        setShowNavbar(true);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("user");
@@ -26,14 +52,14 @@ function Navbar() {
 
   return (
     <>
-      <div className="navbar">
+      <div className={`navbar ${showNavbar ? "visible" : "hidden"}`}>
         <div className="links">
           <ul>
             {isLoggedIn ? (
               <li>
-                <a onClick={handleLogout} style={{marginRight:'5px'}}>
-                  <i class='bxr  bx-arrow-out-down-right-stroke-square'  ></i> Logout  
-                </a> 
+                <a onClick={handleLogout} style={{ marginRight: "5px", cursor: "pointer" }}>
+                  <i className="bxr bx-arrow-out-down-right-stroke-square"></i> Logout
+                </a>
                 {username}
               </li>
             ) : (

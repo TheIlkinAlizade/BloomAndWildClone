@@ -50,11 +50,9 @@ function Footer() {
         <div className="contact">
           <p>© Bloom & Wild Clone 2025. All Rights Reserved</p>
           <div className="logos">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
-            <a href="#"><i className="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/bloomandwild/" target="blank" ><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/bloomandwild" target="blank" ><i className="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/bloomandwild" target="blank" ><i className="fab fa-twitter"></i></a>
           </div>
         </div>
       </div>

@@ -454,32 +454,8 @@ body {
   margin: auto;
   padding: 40px 20px;
   gap: 40px;
+  margin-bottom: 200px;
 }
-.filter-bar {
-  width: 220px;
-}
-.filter-toggle {
-  background: none;
-  border: 1px solid #ccc;
-  padding: 8px 12px;
-  cursor: pointer;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-.filter-section {
-  margin-bottom: 24px;
-}
-.filter-section h4 {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-.filter-section label {
-  display: block;
-  font-size: 14px;
-  margin-bottom: 6px;
-  cursor: pointer;
-}
-
 /* === Product Section === */
 .product-section {
   flex: 1;
@@ -990,7 +966,21 @@ body {
   border-color: #000;
 }
 
+.filter-section input[type="text"] {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  box-sizing: border-box;
+}
 
+.filter-section input[type="text"]:focus {
+  border-color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 /* Auth Page */
 .auth-page {
     width: 100%;
@@ -1671,3 +1661,4 @@ body {
     font-size: 18px;
   }
 }
+

@@ -10,7 +10,8 @@ function Items() {
   const [filters, setFilters] = useState({
     color: "",
     category: "",
-    occasion: []  // change to array for multi-select
+    occasion: [],
+    searchTerm: "",  // Added searchTerm here
   });
   const [sortOrder, setSortOrder] = useState("featured");
   const location = useLocation();
@@ -67,14 +68,17 @@ function Items() {
 
   const filteredItems = items
     .filter((item) => {
-      const { color, category, occasion } = filters;
+      const { color, category, occasion, searchTerm } = filters;
       const colorMatch = color ? item.color === color : true;
       const categoryMatch = category ? item.category === category : true;
-      // Match if item occasions have any selected occasion (OR true if no filter)
       const occasionMatch = occasion.length > 0
         ? occasion.some(o => item.occasions.includes(o))
         : true;
-      return colorMatch && categoryMatch && occasionMatch;
+      const searchMatch = searchTerm
+        ? item.title.toLowerCase().includes(searchTerm.toLowerCase())
+        : true;
+
+      return colorMatch && categoryMatch && occasionMatch && searchMatch;
     })
     .sort((a, b) => {
       if (sortOrder === "newest") return b.id - a.id;
@@ -85,6 +89,17 @@ function Items() {
   return (
     <div className="page-container">
       <aside className="filter-bar">
+        {/* Search Bar */}
+        <div className="filter-section">
+          <h4>Search</h4>
+          <input
+            type="text"
+            placeholder="Search items..."
+            value={filters.searchTerm}
+            onChange={(e) => setFilters({ ...filters, searchTerm: e.target.value })}
+          />
+        </div>
+
         <div className="filter-section">
           <h4>Color</h4>
           <label>
@@ -185,7 +200,7 @@ function Items() {
         </div>
       </main>
     </div>
-  );  
+  );
 }
 
 export default Items;
